@@ -1,0 +1,26 @@
+{
+  "name": "News-Scrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fazil vk",
+  "license": "GPL-3.0",
+  "description": "Whatsapp News Automate bot",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fazil-vk/News-Scrapper.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot"
+  ],
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.32.0",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.1.0",
+    "puppeteer": "^13.5.0",
+    "serve-index": "^1.9.1"
+  }
+}
